@@ -1,0 +1,21 @@
+# Simulation build output
+build/
+obj_dir/
+*.vcd
+*.fst
+
+# Vivado project cruft — never commit these
+vivado_proj/
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+xsim.dir/
+webtalk*
